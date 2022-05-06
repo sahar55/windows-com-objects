@@ -33,7 +33,8 @@ You can very easily import the csv or json into a DataFrame and work with it imm
 ```python
 import pandas as pd
 
-comClassDataframe = pd.read_csv("comClass.csv")
+# skiprows, skips the first row of the csv, in these csv it is required, otherwise the dataframe will not load currectly
+comClassDataframe = pd.read_csv("comClass.csv", skiprows=1)
 ```
 
 ### How it Looks
