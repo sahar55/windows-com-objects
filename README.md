@@ -16,7 +16,7 @@ This repo contains a COM database for the following windows build for both x86 a
 Inside each folder of each build you'll find multiple csv file that contains various information regarding a COM object, soem data will over lap and some will be only in a certain csv, i'l leave the exploration to you. 
 However if you're just getting started i recommend startign with **comClass.csv**. 
 
-These are the various CSVs available
+**These are the various CSVs available**
 - comAppId.csv
 - comCategory.json
 - comClass.csv
@@ -35,3 +35,7 @@ import pandas as pd
 
 comClassDataframe = pd.read_csv("comClass.csv")
 ```
+
+### How it Looks
+![Uploading image.png…]()
+
