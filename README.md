@@ -38,5 +38,4 @@ comClassDataframe = pd.read_csv("comClass.csv", skiprows=1)
 ```
 
 ### How it Looks
-![Uploading image.png…]()
 
